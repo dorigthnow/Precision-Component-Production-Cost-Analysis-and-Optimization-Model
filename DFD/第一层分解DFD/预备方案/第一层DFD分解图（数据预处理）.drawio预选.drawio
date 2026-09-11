@@ -1,0 +1,77 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="FeUud9eoH2LvzNOT_Egb">
+    <mxGraphModel dx="1030" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F07myXPou0vdY6Wz9NNA-1" edge="1" parent="1" source="PMZ81PtcSjKBXCK-WFNy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PMZ81PtcSjKBXCK-WFNy-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMZ81PtcSjKBXCK-WFNy-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="原始业务数据集" vertex="1">
+          <mxGeometry height="80" width="60" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PMZ81PtcSjKBXCK-WFNy-16" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" value="研究员" vertex="1">
+          <mxGeometry height="100" width="100" x="100" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="PMZ81PtcSjKBXCK-WFNy-17" parent="PMZ81PtcSjKBXCK-WFNy-16" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" value="Id" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" as="geometry">
+            <mxPoint x="15" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMZ81PtcSjKBXCK-WFNy-26" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" value="数据探索分析与清洗处理" vertex="1">
+          <mxGeometry height="50" width="100" x="190" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="F07myXPou0vdY6Wz9NNA-5" edge="1" parent="1" source="PMZ81PtcSjKBXCK-WFNy-16" style="endArrow=classic;html=1;rounded=0;" target="PMZ81PtcSjKBXCK-WFNy-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="250" />
+              <mxPoint x="240" y="250" />
+            </Array>
+            <mxPoint x="440" y="340" as="sourcePoint" />
+            <mxPoint x="490" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F07myXPou0vdY6Wz9NNA-7" connectable="0" parent="F07myXPou0vdY6Wz9NNA-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="清洗阈值与缺失处理策略" vertex="1">
+          <mxGeometry relative="1" x="0.058" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F07myXPou0vdY6Wz9NNA-8" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="标准验证数据集" vertex="1">
+          <mxGeometry height="80" width="60" x="390" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="F07myXPou0vdY6Wz9NNA-9" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="标准测试数据集" vertex="1">
+          <mxGeometry height="80" width="60" x="390" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="F07myXPou0vdY6Wz9NNA-10" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="标准训练数据集" vertex="1">
+          <mxGeometry height="80" width="60" x="390" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F07myXPou0vdY6Wz9NNA-11" edge="1" parent="1" source="PMZ81PtcSjKBXCK-WFNy-26" style="endArrow=classic;html=1;rounded=0;" target="F07myXPou0vdY6Wz9NNA-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="130" />
+              <mxPoint x="330" y="30" />
+            </Array>
+            <mxPoint x="440" y="310" as="sourcePoint" />
+            <mxPoint x="490" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F07myXPou0vdY6Wz9NNA-13" edge="1" parent="1" source="PMZ81PtcSjKBXCK-WFNy-26" style="endArrow=classic;html=1;rounded=0;" target="F07myXPou0vdY6Wz9NNA-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="130" />
+              <mxPoint x="330" y="250" />
+            </Array>
+            <mxPoint x="440" y="310" as="sourcePoint" />
+            <mxPoint x="490" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F07myXPou0vdY6Wz9NNA-16" edge="1" parent="1" source="PMZ81PtcSjKBXCK-WFNy-26" style="endArrow=classic;html=1;rounded=0;" target="F07myXPou0vdY6Wz9NNA-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="210" as="sourcePoint" />
+            <mxPoint x="490" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

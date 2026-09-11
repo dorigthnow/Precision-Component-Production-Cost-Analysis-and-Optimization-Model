@@ -1,0 +1,102 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="YC0Pd8oUInpx0ylqOB_2">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-1" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="预备产能数据集" vertex="1">
+          <mxGeometry height="80" width="60" x="170" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-2" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="对比产能数据集" vertex="1">
+          <mxGeometry height="80" width="60" x="170" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-3" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="预备财务数据集" vertex="1">
+          <mxGeometry height="80" width="60" x="170" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-4" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="对比财务数据集" vertex="1">
+          <mxGeometry height="80" width="60" x="170" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-5" edge="1" parent="1" source="CtNDACw8f7WvAs1DRNxU-4" style="endArrow=classic;html=1;rounded=0;" target="CtNDACw8f7WvAs1DRNxU-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="360" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-15" connectable="0" parent="CtNDACw8f7WvAs1DRNxU-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="对比财务数据" vertex="1">
+          <mxGeometry relative="1" x="-0.0732" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-6" edge="1" parent="1" source="CtNDACw8f7WvAs1DRNxU-3" style="endArrow=classic;html=1;rounded=0;" target="CtNDACw8f7WvAs1DRNxU-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-16" connectable="0" parent="CtNDACw8f7WvAs1DRNxU-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="预备财务数据" vertex="1">
+          <mxGeometry relative="1" x="-0.1117" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-7" edge="1" parent="1" source="CtNDACw8f7WvAs1DRNxU-2" style="endArrow=classic;html=1;rounded=0;" target="CtNDACw8f7WvAs1DRNxU-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="360" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-17" connectable="0" parent="CtNDACw8f7WvAs1DRNxU-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="对比产能数据" vertex="1">
+          <mxGeometry relative="1" x="-0.1267" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-8" edge="1" parent="1" source="CtNDACw8f7WvAs1DRNxU-1" style="endArrow=classic;html=1;rounded=0;" target="CtNDACw8f7WvAs1DRNxU-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="360" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-18" connectable="0" parent="CtNDACw8f7WvAs1DRNxU-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="预备产能数据" vertex="1">
+          <mxGeometry relative="1" x="-0.1364" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-9" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" value="对比合并" vertex="1">
+          <mxGeometry height="50" width="100" x="320" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-10" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" value="对比合并" vertex="1">
+          <mxGeometry height="50" width="100" x="340" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-11" edge="1" parent="1" source="CtNDACw8f7WvAs1DRNxU-10" style="endArrow=classic;html=1;rounded=0;" target="CtNDACw8f7WvAs1DRNxU-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="540" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-20" connectable="0" parent="CtNDACw8f7WvAs1DRNxU-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="财务数据" vertex="1">
+          <mxGeometry relative="1" x="-0.2222" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-12" edge="1" parent="1" source="CtNDACw8f7WvAs1DRNxU-9" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="CtNDACw8f7WvAs1DRNxU-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="550" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-19" connectable="0" parent="CtNDACw8f7WvAs1DRNxU-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="产能数据" vertex="1">
+          <mxGeometry relative="1" x="-0.0333" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-13" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="产能数据集" vertex="1">
+          <mxGeometry height="80" width="60" x="540" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="CtNDACw8f7WvAs1DRNxU-14" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" value="财务数据集" vertex="1">
+          <mxGeometry height="80" width="60" x="530" y="185" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
